@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color : #fff;
+    color : #555;
+    font-family : 'Lato','Arial'; 
+    font-weight : 300;
+    font-size:20px;
+    text-rendering : optimizeLegibility;
+}
+
+.clearfix {zoom:1}
+.clearfix:after {
+    content : '.';
+    clear : both;
+    display : block;
+    height : 0;
+    visibility : hidden;
+}
+
+.row {
+    max-width : 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+    border-radius: 20%;
+    height:100px;
+    float:left;
+    margin-top:20px;
+}
+
+.main-nav {
+    float:right;
+}
+
+.main-nav li{
+    display:inline-block;
+    margin : 55px 40px;
+    
+}
+
+.main-nav a:visited,.main-nav a:link{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+    font-size:90%;
+}
+
+.main-nav a:hover,.main-nav a:active{
+    border-bottom : 2px solid #e67e22;
+    padding : 10px 0px;
+}
+
+header {
+    background-image : linear-gradient(rgba(0, 0, 0,0.7),rgba(0, 0, 0,0.7)), url(images2/bag-image.jpg);
+    height : 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+h1,h2,h3{
+ 
+    margin-bottom : 5px;
+    font-weight:300;
+    text-transform: uppercase;
+    
+}
+
+h1 {
+    color : #fff;
+    font-size:200%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+.section-features {
+    margin:10px 0px;
+}
+
+
+h2 {
+    font-size:180%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align : center;
+    margin : 75px 0px;   
+    margin-bottom:50px;
+
+}
+
+h2:after {
+    display:block;
+    height : 2px;
+    width:100px;
+    background-color : #e67e22;
+    content : " ";
+    margin : 30px auto;
+    
+}
+
+h3 {
+    font-size:120%;
+    letter-spacing: 1px;
+}
+
+.main-text {
+    font-size:100%;
+}
+
+.long-copy{
+    line-height: 145%;
+    width:70%;
+    margin-left:15%;
+
+}
+
+.box {
+    font-size:300%;
+    color: #e67e22;
+}
+
+.hero-text-box {
+    position: absolute;
+    width : 1140px;
+    top : 50% ; 
+    left : 50% ;
+    transform : translate(-50%,-50%);
+}
+
+.btn:link,.btn:visited {
+    display : inline-block;
+    margin-top:10px;
+    padding : 10px 30px;
+    font-weight:300;
+    text-decoration: none;
+    border-radius : 200px;
+    color:#fff;
+    transition: background-color 0.2s, color 0.2s, border 0. 2s;
+}
+
+.btn-full:link,.btn-full:visited {
+    background-color : #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+}
+
+.btn-ghost:link,.btn-ghost:visited {
+    border: 1px solid #e67e22;
+    color : #e67e22;
+}
+
+.btn-full:active,.btn-full:hover {
+    border: 1px solid #924d10;
+    background-color : #924d10;
+}
+
+.btn-ghost:active,.btn-ghost:hover {
+    border: 1px solid #924d10;
+    background-color : #924d10;
+    color: #fff;
+}
+
+
+.section-steps {
+    margin-top:30px;
+    background-color:#000;
+    margin-bottom : 50px;
+}
+
+.box-pic {
+    text-align:right;
+    padding-right:3%;
+}
+
+.box-pic img {
+    width:40%
+}
+
+.box-steps {
+    padding-left:3%;
+    margin-top : 60px;
+}
+
+.main-box{
+    margin-bottom : 50px;
+}
+
+.number {
+    border : 2px solid #e67e22;
+    border-radius:50%;
+    display : inline-block;
+    height: 50px;
+    width: 50px;
+    font-size:150%;
+    padding:5px;
+    float:left;
+    text-align:center;
+    margin-left:25px;
+    margin-right:15px;
+    font-size:150%;
+}
+
+.section-cities {
+    margin-bottom:50px;
+}
+
+
+.cities img {
+    width:250px;
+    height: 200px;
+    margin-bottom : 15px;
+}
+
+.section-testimonials {
+    background-image : linear-gradient(rgba(0, 0, 0, 0.733),rgba(0, 0, 0, 0.733)),url('images2/bottom-bag.jpg');
+    background-attachment: fixed;
+    color:#fff;
+}
+
+blockquote {
+    font-family: italic;
+    line-height:145%;
+}
+
+cite {
+    font-size:90%;
+    margin-top:25px;
+    display:block;
+}
+
+cite img{
+    border-radius: 50%;
+    height: 50px;
+    margin-right:25px;
+    vertical-align:middle;
+    margin-left:50px;
+}
+
+/* STYLING FOR WEBCAM FEED */
+
+.section-webcam{
+    margin-top:0px;
+}
+
+#container1 {
+	margin: 0px auto;
+	width: 500px;
+	height: 375px;
+	border: 10px #333 solid;
+}
+
+#videoElement {
+	width: 500px;
+	height: 375px;
+	background-color: #666;
+}
+
+.webcam-div {
+    margin-top:50px;
+    text-align:center;
+}
+
+.webcam-button {
+    margin: 0px 30px;
+}
+
+section:after {
+    
+        display:block;
+        height : 5px;
+        width:1000px;
+        background-color : #f0af77;
+        content : " ";
+        margin-top : 50px;
+        margin-left: auto;
+        margin-right: auto;
+        
+}
